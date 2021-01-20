@@ -19,5 +19,6 @@ def state_l():
     state = storage.all(State).values()
     return render_template('7-states_list.html', states=state)
 
+
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host="0.0.0.0", port="5000", debug=True)
